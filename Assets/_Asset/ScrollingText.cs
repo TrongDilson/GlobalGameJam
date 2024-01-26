@@ -13,7 +13,7 @@ public class ScrollingText : MonoBehaviour
     [SerializeField] private TextMeshProUGUI itemInfoText;
     private int currentDisplayingText = 0;
 
-    private void ActiveText() 
+    public void ActiveText() 
     {
         StartCoroutine(AnimateText());
     }
